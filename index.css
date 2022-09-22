@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2B303A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tela-inicial {
+  width: 400px;
+  height: 600px;
+  background-color: black;
+}
+
+.parte-de-cima {
+  width: 100%;
+  height: 10%;
+  position: relative;
+}
+
+.titulo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo > span, .iniciar > span {
+  color: #4C64BC;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.borda {
+  width: 100%;
+}
+
+.parte-do-meio {
+  width: 100%;
+  height: 77%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.placar {
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+
+.lado-esquerdo {
+  margin-left: 25px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.lado-direito {
+  margin-right: 25px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+}
+
+.jogada {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+
+.resultado {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: x-large;
+}
+
+.esquerda-width {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meio {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.direita-width {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-jogador {
+  width: 100%;
+}
+
+.body-inicio {
+  color: #fff;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-width {
+  color: #fff;
+  width: 100%;
+  height: 70%;
+  background-color: #4C64BC;
+}
+
+.img-width {
+  width: 70%;
+}
+
+.parte-de-baixo {
+  width: 100%;
+  height: 15%;
+  position: relative;
+}
+
+.opcoes-width {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.img-width-opcoes {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.iniciar {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-final {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-msg {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #fff;
+  font-size: x-large;
+}
+
+.img-final {
+  width: 50%;
+}
+
+.footer-geral {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+}
+
+.footer-esquerdo, .footer-direito  {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4C64BC;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
